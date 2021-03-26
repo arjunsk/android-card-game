@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    tools:context="com.arjunsk.numbo.MainActivity">
+
+    <RelativeLayout
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <!-- Title Text -->
+        <TextView
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:id="@+id/dialog_go_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/game_over"
+            android:layout_marginBottom="25dp" />
+
+
+        <!-- Play Again -->
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/dialog_go_title"
+            android:id="@+id/dialog_go_play_again"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+
+            android:drawableStart="@drawable/restart"
+            android:drawableLeft="@drawable/restart"
+            android:drawablePadding="0dp"
+
+            android:minWidth="250dp"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="-5dp"
+
+            android:text="@string/replay"
+            android:textColor="@android:color/white"
+
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="4dp"
+
+            fbutton:buttonColor="#FF173E"
+            fbutton:shadowColor="#D70033"
+
+            />
+
+
+
+        <!-- Home  -->
+        <info.hoang8f.widget.FButton
+            android:textSize="20sp"
+            android:layout_below="@+id/dialog_go_play_again"
+            android:layout_marginTop="30dp"
+            android:id="@+id/dialog_go_home"
+
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+
+            android:drawableStart="@drawable/home"
+            android:drawableLeft="@drawable/home"
+            android:drawablePadding="0dp"
+
+            android:minWidth="250dp"
+
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="-5dp"
+
+            android:text="@string/home"
+            android:textColor="@android:color/white"
+
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="4dp"
+
+            fbutton:buttonColor="#FF173E"
+            fbutton:shadowColor="#D70033"
+
+            />
+
+
+
+        <!-- Exit -->
+        <info.hoang8f.widget.FButton
+            android:textSize="20sp"
+            android:layout_below="@+id/dialog_go_home"
+            android:layout_marginTop="30dp"
+            android:id="@+id/dialog_go_exit"
+
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+
+            android:drawableLeft="@drawable/quit"
+            android:drawableStart="@drawable/quit"
+            android:drawablePadding="0dp"
+
+            android:minWidth="250dp"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="-5dp"
+
+            android:text="@string/exit"
+            android:textColor="@android:color/white"
+
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="4dp"
+
+            fbutton:buttonColor="#FF173E"
+            fbutton:shadowColor="#D70033"
+
+            />
+
+
+
+        <!-- Title Text -->
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:id="@+id/dialog_go_score"
+            android:layout_below="@id/dialog_go_exit"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/your_score_0"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

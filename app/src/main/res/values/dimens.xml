@@ -1,0 +1,15 @@
+<resources>
+
+
+    <dimen name="num_keypad_spacing_right">20dp</dimen>
+    <dimen name="num_keypad_spacing_bottom">20dp</dimen>
+    <dimen name="dialpad_space_above_keys">14dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Frag Home-->
+    <dimen name="frag_home_view_marginBottom">20dp</dimen>
+
+</resources>

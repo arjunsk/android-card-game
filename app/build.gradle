@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.arjunsk.numbo"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 7
+        versionName "1.2.5"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    testCompile 'junit:junit:4.12'
+
+    compile 'info.hoang8f:fbutton:1.0.5' // MainScreen Button
+    compile 'com.github.medyo:fancybuttons:1.8.3'// Keypad button
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'// Font
+    compile 'com.github.quiin:unifiedContactPicker:1.0' // Contact Picker
+    compile 'com.github.GrenderG:Toasty:1.1.3'//Toasty
+
+    compile 'com.android.support:cardview-v7:25.2.0'// Card view
+    compile 'com.daprlabs.aaron:cardstack:0.3.1-beta0' // swipe card
+    //compile 'com.daprlabs.aaron:swipedeck:2.0.6' // swipe card (stable)
+
+    compile 'com.bcgdv.asia.lib:ticktock:1.2' // timer
+
+    // textview jump
+    compile 'com.daimajia.easing:library:2.0@aar'
+    compile 'com.daimajia.androidanimations:library:2.2@aar'
+
+
+    compile 'de.greenrobot:greendao:2.1.0' // Database
+    compile 'com.jungly:gridPasswordView:0.3'//password view
+    compile 'com.android.support:design:25.2.0'// Fragments
+    compile 'net.colindodd:toggleimagebutton:1.2'// Toggle Buttons
+
+    compile 'gun0912.ted:tedpermission:1.0.3'// Permission check
+
+}

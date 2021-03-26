@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Numbo</string>
+    <string name="delete"><![CDATA[←]]></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="codekrypt_labs">CodeKrypt Labs</string>
+    <string name="highscore_0">HighScore: 0</string>
+    <string name="gameplay_0">GamePlay: 0</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="_0_digits">0 digits</string>
+    <string name="score_0">Score: 0</string>
+    <string name="_00">00</string>
+    <string name="build_with">Build with</string>
+    <string name="codekrypt_lab_dialog">\@ Codekrypt Labs</string>
+    <string name="arjun_sk">Arjun SK</string>
+    <string name="developer">Developer</string>
+    <string name="vishnuvardhan_prem">Vishnuvardhan Prem</string>
+    <string name="design_amp_ui"><![CDATA[Design & UI]]></string>
+    <string name="prabuldas_s_r">Prabuldas S.R.</string>
+    <string name="testing">Testing</string>
+    <string name="game_over">Game Over</string>
+    <string name="replay">Replay</string>
+    <string name="home">Home</string>
+    <string name="exit">Exit</string>
+    <string name="your_score_0">Your Score : 0</string>
+    <string name="resume">Resume</string>
+    <string name="restart">Restart</string>
+    <string name="play">Play</string>
+    <string name="pick_contacts">Pick Contacts</string>
+
+</resources>
+

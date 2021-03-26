@@ -1,0 +1,28 @@
+
+------------------------------  Free Font License ------------------------------ 
+
+PREAMBULE  Fabien Despinoy (http://fabiendespinoy.free.fr/) auteur de cette police concède gratuitement son usage.
+
+Les polices sous licence à utiliser, étudié, modifié et redistribué librement tant qu'ils ne sont pas vendus par eux-mêmes. Les polices, y compris des œuvres dérivées, peuvent être regroupés, intégrés, redistribuées et / ou vendus avec un logiciel à condition que les noms réservés ne sont pas utilisés par des œuvres dérivées. Les polices et leurs dérivés, cependant, ne peuvent pas être libérés en vertu de tout autre type de licence. L'obligation pour les polices de rester sous cette licence ne s'applique pas à tout document créé à l'aide des polices ou leurs dérivés.
+
+------------------------------ 
+DEFINITIONS  
+"police Logiciel» désigne l'ensemble des fichiers publiés par le titulaire (s) de droit d'auteur en vertu de cette licence et clairement identifiée comme telle. Cela peut inclure des fichiers sources, créer des scripts et de la documentation.
+"Réservé Nom de la police" se réfère à tous les noms répertoriés comme tels après la déclaration (s) de droit d'auteur.
+"Version originale" se réfère à la collection de polices composants logiciels tel que distribué par le titulaire (s) de droit d'auteur.
+«Version modifiée» désigne tout dérivé obtenu en ajoutant à, la suppression ou la substitution en tout ou en partie, l'un des composants de la version originale, en modifiant les formats ou par le portage du logiciel de polices à un nouvel environnement.
+"Auteur" se réfère à tout concepteur, ingénieur, programmeur, écrivain technique ou autre personne ayant contribué à la Software police.
+
+------------------------------ 
+AUTORISATION ET CONDITIONS 
+ autorisation est accordée gratuitement, à toute personne obtenant une copie du logiciel de police, d'utiliser, étudier, copier, fusionner, incorporer, modifier, redistribuervendre des copies modifiées du logiciel de police, sous réserve aux conditions suivantes:
+1) Ni le logiciel de polices ni aucun de ses composants individuels, dans les versions originales ou modifiées, peuvent être vendus par lui-même.
+2) Versions originales ou modifiées du logiciel de polices peuvent être regroupées, redistribué et / ou vendu avec un logiciel, à condition que chaque copie contienne l'avis de copyright ci-dessus et cette licence. Ceux-ci peuvent être inclus sous forme de fichiers de texte autonomes, en-têtes lisibles ou dans les champs de métadonnées lisibles à la machine appropriés au sein de texte ou des fichiers binaires pour autant que ces champs peuvent être facilement consultés par l'utilisateur.
+3) Aucune version modifiée du logiciel de police peut utiliser le nom (s) de la police réservés sauf autorisation écrite explicite est accordée par le titulaire du droit d'auteur correspondant. Cette restriction s'applique uniquement au nom de la police primaire tel que présenté aux utilisateurs.
+4) Le nom (s) du titulaire (s) des droits d'auteur ou de l'auteur (s) du logiciel de police ne doit pas être utilisé pour promouvoir, soutenir ou promouvoir une Version modifiée, sauf à reconnaître la contribution (s) du titulaire du droit d'auteur (s) et l'auteur (s) ou avec leur autorisation écrite explicite.
+5) Le logiciel de police, modifié ou non, en tout ou en partie, doit être distribué entièrement sous cette licence, et ne doit pas être distribué sous une autre licence. L'obligation pour les polices de rester sous cette licence ne s'applique pas à tout document créé à l'aide du logiciel de police.
+
+------------------------------ 
+FIN  
+Cette licence devient nulle et non avenue si l'une des conditions ci-dessus ne sont pas remplies.
+AVERTISSEMENT  DU LOGICIEL DE POLICE EST FOURNI "EN L'ÉTAT", SANS GARANTIE D'AUCUNE SORTE, EXPLICITE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, TOUTE GARANTIE DE QUALITÉ MARCHANDE, D'ADEQUATION A UN USAGE PARTICULIER ET D'ABSENCE DU DROIT D'AUTEUR, BREVETS, MARQUES, OU AUTRE DROIT. EN AUCUN CAS, LE TITULAIRE DU DROIT D'AUTEUR NE SERA RESPONSABLE DE TOUT DOMMAGE, RÉCLAMATION OU AUTRE RESPONSABILITÉ, Y COMPRIS TOUTE GENERAL, SPÉCIAUX, INDIRECTS, ACCESSOIRES OU INDIRECTS, QUE CE SOIT DANS LE CADRE D'UN CONTRAT, UN PREJUDICE OU AUTRE, PROVENANT DE, DE L'UTILISATION OU L'INCAPACITE D'UTILISER LE LOGICIEL DE POLICE OU D'AUTRES RELATIONS DANS LE LOGICIEL DE POLICE.

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dialpad -->
+<LinearLayout android:id="@+id/dialpad"
+    android:layout_below="@+id/digits_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Space style="@style/DialpadSpaceStyle" />
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_1"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="1"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_2"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="2"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_3"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="3"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+        <Space style="@style/DialpadSpaceStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Space style="@style/DialpadSpaceStyle" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_4"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="4"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_5"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="5"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_6"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="6"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+        <Space style="@style/DialpadSpaceStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Space style="@style/DialpadSpaceStyle" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_7"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="7"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_8"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="8"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_9"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="9"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+        <Space style="@style/DialpadSpaceStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Space style="@style/DialpadSpaceStyle" />
+
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_next_card"
+            style="@style/DialpadKeyButtonStyle"
+            android:text=""
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_fontIconResource="&#xf064;"
+            fancy:fb_fontIconSize="20sp"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_num_0"
+            style="@style/DialpadKeyButtonStyle"
+            android:text="0"
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_textColor="#000" />
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            style="@style/DialpadKeyButtonStyle"
+            android:id="@+id/btn_call"
+            android:text=""
+            android:textSize="30sp"
+            fancy:fb_defaultColor="#FABA17"
+            fancy:fb_focusColor="#e3a300"
+            fancy:fb_fontIconResource="&#xf095;"
+            fancy:fb_fontIconSize="25sp"
+            fancy:fb_textColor="#000" />
+
+
+
+
+        <Space style="@style/DialpadSpaceStyle" />
+    </LinearLayout>
+
+</LinearLayout>
